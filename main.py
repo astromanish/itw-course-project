@@ -380,8 +380,8 @@ def mainroot():
 		label = Label(b_frame,image = img ,height=400,width=1080)
 		label.image=img
 		label.place(x=0,y=0)
-		l = Label(b_frame,text='Please Enter The Unique Payment ID',font='msserif 15',bg='cyan4',fg='white')
-		l.place(x=245,y=0)
+		l = Label(b_frame,text='Please Enter The Unique Payment ID\t\t\t\t\t\t\t\t\t\t\t\t\t',font='msserif 15',bg='cyan4',fg='white')
+		l.place(x=0,y=0)
 		b_frame.place(x=0,y=120+6+20+60+11)
 		b_frame.pack_propagate(False)
 		b_frame.tkraise()
@@ -390,7 +390,7 @@ def mainroot():
 		ef = Frame(hline)
 		p_id = Entry(ef)
 		p_id.pack(ipadx=25,ipady=3)
-		ef.place(x=308,y=6)
+		ef.place(x=0,y=6)
 
 		fl1=Frame(b_frame,height=38,width=308,bg='cyan4')
 		fl1.place(x=0,y=68)
@@ -508,7 +508,7 @@ def mainroot():
 				l1=Label(fr3,text='No Information Available',height=38,width=1080-308,font='msserif 15',bg='white',fg='cyan4').pack()
 				l1=Label(fr4,text='No Information Available',height=38,width=1080-308,font='msserif 15',bg='white',fg='cyan4').pack()
 		ok = Button(hline,text='OK',font='msserif 10',bg='white',activebackground='steelblue',fg='cyan4',command=getid)
-		ok.place(x=530,y=5)
+		ok.place(x=222,y=5)
 		p_id.bind('<Return>',getid)
 		def pr():
 			messagebox.askyesno("Print","Do you want to print Reciept")
