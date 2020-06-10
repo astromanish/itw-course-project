@@ -34,6 +34,7 @@ con.commit()
 sroot = Tk()
 sroot.minsize(height=768,width=979)
 sroot.configure(bg='white')
+sroot.title("HOTEL MANGEMENT SYSTEM")
 spath = "images/hotel.jpg"
 simg = ImageTk.PhotoImage(Image.open(spath))
 my = Label(sroot,image=simg)
