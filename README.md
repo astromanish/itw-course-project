@@ -33,6 +33,9 @@ A filter is also provided which gives you the option to fill fields(amenities) a
 4. Payments Info
 
 To find the payment information by providing the payment id.
+Payment id is generated numberwise from 1,2,3... and so on after each reservation.
+# As database is already filled in withsome reservation details so it has reservation details upto payment id 28.
+So one can check payment details of any payment id from 1 to 28 or if new reservation is made after 28 one can also check that. 
 
 5. Contacts 
 
@@ -55,6 +58,9 @@ Application program itself.
 3. hm_proj.db
 
 Database of application program.
+It already contains details of amenties of each room from 1 to 20 which one can check in Rooms section of main menu screen.
+After a reservation is made it will save payment details with date,time and amount which one can check in payments info section of main menu screen.
+Filter feature of reserve section of main menu screen also work by help of this database.
 
 4. images
 
