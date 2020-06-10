@@ -34,8 +34,8 @@ A filter is also provided which gives you the option to fill fields(amenities) a
 
 To find the payment information by providing the payment id.
 Payment id is generated numberwise from 1,2,3... and so on after each reservation.
-# As database is already filled in withsome reservation details so it has reservation details upto payment id 32.
-So one can check payment details of any payment id from 1 to 28 or if new reservation is made after 32 one can also check that. 
+# As database is already filled in withsome reservation details so it has reservation details upto payment id 33.
+So one can check payment details of any payment id from 1 to 28 or if new reservation is made after 33 one can also check that. 
 
 5. Contacts 
 
