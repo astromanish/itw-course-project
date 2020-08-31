@@ -1,7 +1,7 @@
 
 # HOTEL MANAGEMENT SYSTEM
 
-## This project is an Tkinter based(Python Module) application that can be used by any hotel for room booking.
+## This project is a Tkinter based(Python Module) application that can be used by any hotel for room booking.
  
 ## This application is made as a project for ITW Course under Prof. L.P. Singh Sir
 
